@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!-- saved from url=(0106)file:///C:/Users/admin/Desktop/Tanu/Studies/7th%20Sem/Minor%20Project/Virtual%20Lab%20Draft%202/index.html -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title> Analog Circuit Virtual Lab</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1> Experiment 10</h1>
+    <div class="container">
+        <h2 class="heading"> Student Details </h2>
+        <!--Student Details-->
+
+
+
+        <form class="details">
+            Name: <input type="text" placeholder="Student Name" class="name"><br>
+            Roll Number:<input type="text" placeholder="Roll Number" class="rollno"><br>
+        </form>
+    </div>
+
+    <div class="container">
+        <!--AIM-->
+        <h2 class="heading"> Aim</h2>
+        <p class="aim"> IC555 Timer as Multivibrator</p>
+        <h2 class="heading">Reference Books</h2>
+        <ol class="objective">
+            <li>Ramakant A. Gayakwad- op-amp and Linear Integrated Circuits, Pearson Education; Fourth edition. </li>
+        </ol>
+
+        <!--OBJECTIVE-->
+        <h2 class="heading"> Objective</h2>
+        <ol class="objective">
+            <li>To design and implement astable mode using the IC555 timer for given specifications. </li>
+            <li>To determine the duty cycle and switching frequency. </li>
+        </ol>
+    </div>
+    <div class="container">
+        <!--THEORY-->
+        <h2 class="heading"> Theory </h2>
+        <p class="theory">555 timer IC in an Astable mode can be used to produce a very stable 555 Oscillator circuit for generating highly accurate free running waveforms whose output frequency can be adjusted by means of an externally connected RC tank circuit consisting of just two resistors and a capacitor.
+            Whereas the 555 monostable circuit stopped after a preset time waiting for the next trigger pulse to start over again, in order to get the 555 Oscillator to operate as an astable multivibrator it is necessary to continuously re-trigger the 555 IC after each and every timing cycle.
+            This re-triggering is basically achieved by connecting the trigger input (pin 2) and the threshold input (pin 6) together, thereby allowing the device to act as an astable oscillator. Then the 555 Oscillator has no stable states as it continuously switches from one state to the other. Also the single timing resistor of the previous monostable multivibrator circuit has been split into two separate resistors, R1 and R2 with their junction connected to the discharge input (pin 7) as shown below. </p>
+        <!--COMPONENT REQUIREMENT TABLE-->
+        <h2 class="heading"> Component Table </h2>
+        <p class="reqtable">Select the necessary equipment/apparatus/components required for this experiment and list
+            all of them in below-given space:</p>
+    </div>
+
+    <div class="container">
+        <form method="POST">
+            <table border="1" class="rtable">
+                <tbody>
+                    <tr>
+                        <th class="innertable">Name of Equipment/Components</th>
+                        <th class="innertable">Range/Value/Specification</th>
+                        <th class="innertable">Justification of the selection of each component/equipment</th>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                    </tr>
+
+                    <tr>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+
+                    </tr>
+
+
+                    <tr>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                    </tr>
+
+                    <tr>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                    </tr>
+                    <tr>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                    </tr>
+
+                </tbody>
+            </table> <br>
+        </form>
+
+
+        <!--PRE LAB QUIZ-->
+        <h2 class="heading"> Pre Lab Quiz</h2>
+        <p class="PLQ"> Design an astable circuit for duty cycle 60% and switching frequency 1KHz.
+            Reference Book: </p>
+        <form action="file:///C:/action_page.php">
+            <!--https://www.codegrepper.com/code-examples/html/how+to+allow+user+to+upload+an+image+html-->
+            <label for="img" class="mcq">Select image:</label>
+            <input type="file" class="mcq" name="img" accept="image/*"> <br>
+            <input type="submit" class="imgsubmit" align="center">
+        </form>
+
+        <h2 class="heading"> Post Lab Quiz</h2>
+        <p class="PLQ">1. Design a monostable configuration using IC555 in multisim software for pulse width 1ms..<br />
+        </p>
+        <form action="file:///C:/action_page.php">
+            <!--https://www.codegrepper.com/code-examples/html/how+to+allow+user+to+upload+an+image+html-->
+            <label for="img" class="mcq">Select image:</label>
+            <input type="file" class="mcq" name="img" accept="image/*"> <br>
+            <input type="submit" class="imgsubmit" align="center">
+        </form>
+
+        <!--<form>
+            <strong class="q"> 1. MCQ:</strong><br>
+            <input type="radio" name="MCQ" class="mcq"> A. xyz </br>
+            <input type="radio" name="MCQ" class="mcq"> B. abc </br>
+            <input type="radio" name="MCQ" class="mcq"> C. ijk </br>
+        </form> -->
+
+
+        <!--PROCEDURE-->
+        <h2 class="heading">Procedure </h2>
+        <ol class="procedure">
+            <li>Change RA and RB in simulator window and observe effect on Output waveform frequency and dutycycle. </li>
+            <li>Change C in Simulator window and observe effect on output waveform frequency and dutycycle.</li>
+            <li>Find Values of RA RB and C to generate 100Hz Square Wave and observe the same on simulator.</li>
+            <li>Find Values of RA RB and C to generate 1KHz 70% Duty Cycle rectangular Waveform and observe the same using Simulator.</li>
+            <li>Observe current Sink and Source load configuration.</li>
+        </ol>
+
+
+        <!--OBS TABLE-->
+        <h2 class="heading">Observations </h2>
+        <div class="container">
+            <p class="obspara">Astable configuration: </p>
+            <form method="POST" class="observation">
+                <style type="text/css">
+                    .tg  {border-collapse:collapse;border-spacing:0;}
+                    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+                      overflow:hidden;padding:10px 5px;word-break:normal;}
+                    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+                      font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+                    .tg .tg-0lax{text-align:left;vertical-align:top}
+                    </style>
+                    <table class="tg">
+                    <thead>
+                      <tr>
+                        <th class="tg-0lax">Sr</th>
+                        <th class="tg-0lax">Ra</th>
+                        <th class="tg-0lax">Rb</th>
+                        <th class="tg-0lax">ON<br>Time</th>
+                        <th class="tg-0lax">OFF<br>Time</th>
+                        <th class="tg-0lax">Duty Cycle</th>
+                        <th class="tg-0lax">ON<br>Time</th>
+                        <th class="tg-0lax">OFF<br>Time</th>
+                        <th class="tg-0lax">Time <br>period</th>
+                        <th class="tg-0lax">Duty Cycle</th>
+                        <th class="tg-0lax">Remarks</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="tg-0lax">1</td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                      </tr>
+                      <tr>
+                        <td class="tg-0lax">2</td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                      </tr>
+                      <tr>
+                        <td class="tg-0lax">3</td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                      </tr>
+                      <tr>
+                        <td class="tg-0lax">4</td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                      </tr>
+                      <tr>
+                        <td class="tg-0lax">5</td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                        <td class="tg-0lax"><input type="text" name="" id=""></td>
+                      </tr>
+                    </tbody>
+                    </table><br>
+            </form>
+        </div><br>
+        <input type="Reset" value="Clear Table" class="clear" align="center">
+        <a href="https://shivam21082000.github.io/simulation-exp10/">
+            <input type="Submit" value="Simulation" class="submit-simulation" align="center">
+        </a>
+        <input type="Submit" value="Submit Experiment" class="submit" align="center">
+
+
+
+    </div>
+</body>
+
+</html>
